@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/a"
+    android:id="@+id/bg"
+    tools:context=".fragment.TbFragment">
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="400dp">
+    </com.github.mikephil.charting.charts.PieChart>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_zc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorClick"
+            android:textColor="#fff"
+            android:text="支出"></Button>
+        <Button
+            android:id="@+id/btn_sr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@color/colorClick"
+            android:textColor="#fff"
+            android:text="收入"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
